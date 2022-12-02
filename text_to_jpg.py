@@ -1,13 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def binary_to_decimal(binary):
-    decimal=0
-    for i in range(8):
-        decimal+=(binary%10)*(2**i)
-        binary/=10;
-    return decimal
-
 def txt_array(file):
     lst=[]
     lst.append(list(int(x,16) for x in file))
