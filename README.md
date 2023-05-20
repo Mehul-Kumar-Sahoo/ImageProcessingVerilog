@@ -1,5 +1,7 @@
 # Image Processing Using Verilog #
 
+Skills: Verilog HDL
+
 ## The pixel_controller module is able to perform following operations on a grayscale image :- ##
  - Increase Brightness
  - Decrease Brightness
